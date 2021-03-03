@@ -1,6 +1,6 @@
 # Dummy CDROM Ejector
 Ok, This is one of the stupid idea that cross my mind. a service to remotely eject your system cdrom :D  
-Obviously this is totally useless, it's just for fun, this just work on linux.
+Obviously this is totally useless, it's just for fun, also working on linux only.
 
 ### Compile And Run
 For building this, you need to install golang `apt install golang` or checkout [official website](https://golang.org)
