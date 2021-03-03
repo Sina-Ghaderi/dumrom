@@ -11,10 +11,9 @@ For building this, you need to install golang `apt install golang` or checkout [
 # ./romdum --net 0.0.0.0:9940 --dev /dev/cdrom
 info: application is listening on address 0.0.0.0:9940
 ...
-
 ```
 
-Next connect the server using netcat a.k.a `nc` 
+Next connect the server using netcat a.k.a `nc`, may you want to install it? `apt install netcat`
 
 ```
 # nc 127.0.0.1 9940
@@ -26,7 +25,12 @@ operation completed successfully, check the cdrom.
 ... 
 ```
 
+  
 ### Help And Licence
+Copyright (c) 2021 blg.snix.ir, All rights reserved.
+Developed BY sina@snix.ir --> FYI: this is just for fun and totally useless :D
+This work is licensed under the terms of the MIT license.
+
 ```
 # ./dumrom -h
 usage of dummy cdrom-dvdrom ejector server:
